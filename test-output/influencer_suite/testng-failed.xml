@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [influencer_suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Testcases_Influencer_suite.Testcases_influencer_suite_campings">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialization"/>
+          <include name="setup"/>
+          <include name="TestBase1"/>
+        </methods>
+      </class> <!-- Testcases_Influencer_suite.Testcases_influencer_suite_campings -->
+      <class name="Testcases_Influencer_suite.Testcases_influencer_suite_List">
+        <methods>
+          <include name="Testcases_influencer_smart_search_instagram"/>
+          <include name="Testcases_search_edit_delete"/>
+          <include name="Testcases_Advance_fillter_Testing_Youtube"/>
+          <include name="Testcases_influencer_smart_search_youtube"/>
+          <include name="Testcases_Advance_fillter_Testing_Instagram"/>
+          <include name="Testcases_add_List_curate"/>
+          <include name="Testcases_view_summery_curate_cards"/>
+          <include name="Testcase_linfluencer_main"/>
+          <include name="TestBase1"/>
+          <include name="setup"/>
+          <include name="Testcases_influencer_smart_search_Twitter"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Testcases_Influencer_suite.Testcases_influencer_suite_List -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [influencer_suite] -->

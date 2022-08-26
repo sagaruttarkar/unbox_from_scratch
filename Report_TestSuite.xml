@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Reports">
+  <test name="Test">
+    <classes>
+       <class name="Testcases_Reports.Testcases_Create_reports_Anylytics_All_platform"/>
+      <class name="Testcases_Reports.Testcases_Create_reports_Competition_All_platform"/>
+      <class name="Testcases_Reports.Testcases_Create_reports_influencer_camping_All_platform"/>
+      <class name="Testcases_Reports.Testcases_create_report_infltracking_brand_safty"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="influencer_suite">
+  <test name="Test">
+    <classes>
+      <class name="Testcases_Influencer_suite.Testcases_influencer_suite_campings"/>
+      <class name="Testcases_Influencer_suite.Testcases_influencer_suite_List"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

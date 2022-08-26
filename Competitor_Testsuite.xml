@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="competition">
+  <test name="Test">
+    <classes>
+    
+      <class name="Testcases_competitor.Testcases_competitor_All_platform_Mertrics_verification"/>
+      <class name="Testcases_competitor.Testcases_competitior_Main_filtter_and_Delete_bucket"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->  

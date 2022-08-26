@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Find_Broken_Links.Broken_links_image">
+        <methods>
+          <include name="setup"/>
+          <include name="Broken_Link_images"/>
+        </methods>
+      </class> <!-- Find_Broken_Links.Broken_links_image -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

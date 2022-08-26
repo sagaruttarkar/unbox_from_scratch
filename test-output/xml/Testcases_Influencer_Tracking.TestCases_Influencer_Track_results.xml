@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="620.054">
+  <properties />
+  
+  
+            <testcase name="Testcases_influencer_tracking_TW_metrics_validation" time="179.387" classname="Testcases_Influencer_Tracking.TestCases_Influencer_Track" />
+                <testcase name="Testcases_Handle_IG_add_and_delete" time="56.707" classname="Testcases_Influencer_Tracking.TestCases_Influencer_Track" />
+                <testcase name="Testcases_influencer_tracking_IG_metrics_validation" time="187.154" classname="Testcases_Influencer_Tracking.TestCases_Influencer_Track" />
+                <testcase name="Testcases_influencer_tracking_YT_metrics_validation" time="159.425" classname="Testcases_Influencer_Tracking.TestCases_Influencer_Track" />
+                <testcase name="Testcases_influencer_tracking_manually_add_influencer" time="37.381" classname="Testcases_Influencer_Tracking.TestCases_Influencer_Track" />
+      
+</testsuite>

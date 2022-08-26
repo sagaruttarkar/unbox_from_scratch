@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [influencer_Tracking]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Testcases_Reports.Testcases_create_report_infltracking_brand_safty">
+        <methods>
+          <include name="TestBase1"/>
+          <include name="setup"/>
+          <include name="Testcases_brand_safty"/>
+          <include name="teardown"/>
+          <include name="Testcase_Create_report_brand_safty"/>
+          <include name="Testcases_Export_reports_influencer_tracking"/>
+        </methods>
+      </class> <!-- Testcases_Reports.Testcases_create_report_infltracking_brand_safty -->
+      <class name="Testcases_Influencer_Tracking.TestCases_Influencer_Track">
+        <methods>
+          <include name="TestBase1"/>
+          <include name="setup"/>
+          <include name="initialization"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Testcases_Influencer_Tracking.TestCases_Influencer_Track -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [influencer_Tracking] -->

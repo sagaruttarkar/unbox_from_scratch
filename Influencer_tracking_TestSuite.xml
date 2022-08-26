@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="influencer_Tracking">
+ <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test">
+<classes>  
+  <class name="Testcases_Influencer_Tracking.TestCases_Influencer_Track"/>
+    <class name="Testcases_Reports.Testcases_create_report_infltracking_brand_safty"/>
+    </classes>
+     
+     	  
+ 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
